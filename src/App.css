@@ -1,0 +1,28 @@
+@media print {
+  body {
+      /* margin-bottom: 100; */
+      /* padding: 0; */
+  }
+
+  h1 {
+      display: none; 
+  }
+
+  .grid-container {
+      /* display: grid; */
+      /* grid-template-columns: repeat(4, 1fr); */
+      /* width: 100%;  */
+      /* page-break-inside: avoid  */
+  }
+
+  /* .card {
+      width: 200px; 
+      height: 300px;
+      font-size: 12px; 
+  } */
+}
+@page {
+  size: auto; /* או רוחב וגובה ספציפיים לקובץ PDF */
+  margin-bottom: 10mm; /* רווח מינימלי מימין, משמאל, בחלק העליון ובחלק התחתון */
+  margin-top: 16mm; /* רווח מינימלי מימין, משמאל, בחלק העליון ובחלק התחתון */
+}
